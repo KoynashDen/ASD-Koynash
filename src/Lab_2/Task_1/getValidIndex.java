@@ -1,13 +1,13 @@
 package Lab_2.Task_1;
 
-import GetValid.getValidInt;
+import GetValid.GetValidInt;
 
 import java.util.Scanner;
 
 public class getValidIndex {
     public static int getValidIndex(Scanner scan, int size) {
         while (true) {
-            int index = getValidInt.getValidInt(scan);
+            int index = GetValidInt.getValidInt(scan);
             if (index >= 0 && index < size) {
                 return index;
             } else {

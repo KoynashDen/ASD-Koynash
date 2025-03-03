@@ -3,7 +3,7 @@ package Lab_2.Task_3;
 import java.util.Scanner;
 
 import Prints.printMatrix;
-import GetValid.getValidInt;
+import GetValid.GetValidInt;
 
 public class Task_3 {
     public static void task3() {
@@ -11,7 +11,7 @@ public class Task_3 {
 
 
         System.out.print("Введіть кількість рядків та стовпців: ");
-        int rowsAndCols = getValidInt.getValidInt(scanner);
+        int rowsAndCols = GetValidInt.getValidInt(scanner);
 
 
         int[][] matrix = new int[rowsAndCols][rowsAndCols];

@@ -2,7 +2,7 @@ package GetValid;
 
 import java.util.Scanner;
 
-public class getValidArray {
+public class GetValidArray {
     public static int[] getValidArray(Scanner scan, int size) {
         int[] array = new int[size];
 

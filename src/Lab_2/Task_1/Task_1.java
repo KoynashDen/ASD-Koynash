@@ -1,7 +1,7 @@
 package Lab_2.Task_1;
 
-import GetValid.getValidArray;
-import GetValid.getValidInt;
+import GetValid.GetValidArray;
+import GetValid.GetValidInt;
 
 import java.util.Scanner;
 
@@ -9,12 +9,12 @@ public class Task_1 {
     public static void task1() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введіть розмір масива N");
-        int n = getValidInt.getValidInt(scan);
+        int n = GetValidInt.getValidInt(scan);
         scan.nextLine();
         int[] array = new int[n];
 
 
-        array = getValidArray.getValidArray(scan, n);
+        array = GetValidArray.getValidArray(scan, n);
 
 
         System.out.println("Введіть ПОЧАТКОВИЙ індекс для прорахонку добутку:");

@@ -3,7 +3,7 @@ package Lab_2.Task_2;
 import java.util.Random;
 import java.util.Scanner;
 
-import GetValid.getValidInt;
+import GetValid.GetValidInt;
 import Prints.printMatrix;
 
 public class Task_2 {
@@ -11,8 +11,8 @@ public class Task_2 {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         System.out.println("Введіть розміри матриці (m x n):");
-        int m = getValidInt.getValidInt(scanner);
-        int n = getValidInt.getValidInt(scanner);
+        int m = GetValidInt.getValidInt(scanner);
+        int n = GetValidInt.getValidInt(scanner);
         int[][] matrix = new int[m][n];
 
 

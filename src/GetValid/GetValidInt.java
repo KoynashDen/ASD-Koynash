@@ -2,7 +2,7 @@ package GetValid;
 
 import java.util.Scanner;
 
-public class getValidInt {
+public class GetValidInt {
     public static int getValidInt(Scanner scan) {
         while (true) {
             try {

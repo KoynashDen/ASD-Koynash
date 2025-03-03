@@ -2,7 +2,7 @@ package Lab_2.Task_4;
 import java.util.Scanner;
 
 import static Prints.printMatrix.printMatrix;
-import static GetValid.getValidInt.getValidInt;
+import static GetValid.GetValidInt.getValidInt;
 
 public class Task_4 {
     public static void task4() {

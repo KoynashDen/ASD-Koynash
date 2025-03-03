@@ -1,9 +1,6 @@
 package Lab_2;
 
-import GetValid.getValidArray;
-import GetValid.getValidInt;
 import Lab_2.Task_1.Task_1;
-import Lab_2.Task_1.getValidIndex;
 import Lab_2.Task_2.Task_2;
 import Lab_2.Task_3.Task_3;
 import Lab_2.Task_4.Task_4;
