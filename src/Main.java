@@ -4,6 +4,7 @@ import Lab_4.Lab_4;
 import Lab_5.Lab_5;
 import Lab_6.Lab_6;
 import Lab_7.Lab_7;
+import Lab_8.Lab_8;
 
 import java.util.Scanner;
 // 9 varik
@@ -37,6 +38,9 @@ public class Main {
                     break;
                 case 7:
                     Lab_7.lab_7();
+                    break;
+                case 8:
+                    Lab_8.lab_8();
                     break;
                 default:
                     System.out.println("ERROR");
