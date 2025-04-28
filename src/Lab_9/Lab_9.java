@@ -1,6 +1,6 @@
 package Lab_9;
 import java.util.*;
-
+    
 public class Lab_9 {
     static final int INF = 999999;
     static final int V = 7;

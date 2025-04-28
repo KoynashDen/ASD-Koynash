@@ -1,3 +1,4 @@
+import Lab_10.Lab_10;
 import Lab_2.Lab_2;
 import Lab_3.Lab_3;
 import Lab_4.Lab_4;
@@ -45,6 +46,9 @@ public class Main {
                     break;
                 case 9:
                     Lab_9.lab_9();
+                    break;
+                case 10:
+                    Lab_10.lab_10();
                     break;
                 default:
                     System.out.println("ERROR");
